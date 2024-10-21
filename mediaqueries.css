@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: flex;
+  }
+
+  #profile {
+    display: block;
+  }
+  section {
+    height: fit-content;
+  }
+
+  img {
+    width: 275px;
+    height: 275px;
+  }
+  .section {
+    margin: 0 5%;
+  }
+  .arrow {
+    display: none;
+  }
+  /* ABOUT */
+
+  #about {
+    margin-top: 2rem;
+  }
+  .section-container {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 0;
+  }
+
+  /* EXPERIENCE */
+  #experience {
+    margin-top: 2rem;
+  }
+
+  .frontend,
+  .backend {
+    padding: 0;
+    gap: 1px;
+  }
+  .details {
+    justify-content: center;
+  }
+  .title {
+    padding-top: 1rem;
+  }
+
+  .contact-details {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-details {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .info-contact {
+    justify-content: center;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+
+  footer p {
+    margin-top: 10rem;
+  }
+
+  #contact .explore h1 {
+    font-size: 2rem;
+  }
+}
